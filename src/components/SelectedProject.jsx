@@ -7,7 +7,6 @@ function SelectedProject({
   onAddTask,
   onDeleteTask,
 }) {
-  console.log(project);
   const formattedDate = new Date(project.dueDate).toLocaleDateString("en-US", {
     year: "numeric",
     month: "short",

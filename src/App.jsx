@@ -18,7 +18,6 @@ function App() {
         text: text,
         id: taskId,
       };
-      console.log(projectId);
 
       return {
         ...prevState,
